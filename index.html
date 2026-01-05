@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="lab-container">
+        <h2 class="lab-title">JS Events Laboratory</h2>
+
+        <div class="workbench">
+            <div class="parts-bin">
+                <div class="part" draggable="true" data-type="CPU">CPU</div>
+                <div class="part" draggable="true" data-type="GPU">GPU</div>
+                <div class="part" draggable="true" data-type="RAM">RAM</div>
+            </div>
+
+            <div class="drop-zone" id="main-slot">
+                <p class="status-text">Drop the part here...</p>
+            </div>
+        </div>
+
+        <div class="controls-hint">
+            <p>Keyboard: <strong>"R"</strong> - reset, <strong>"C"</strong> - change the color</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
